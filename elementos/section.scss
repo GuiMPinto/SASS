@@ -1,3 +1,4 @@
+@use '../variaveis.scss';
 section
 {
     padding: 56px 0;
@@ -24,7 +25,7 @@ section
             .product-button
             {
                 display: block;
-                background-color: #44bd32;
+                background-color:variaveis.$corBotao;
                 color: #fff;
                 text-align: center;
                 padding: 8px 0;
@@ -34,7 +35,7 @@ section
 
                 &:hover
                 {
-                    background-color: #4cd137;
+                    background-color:variaveis.$corhover;
                 }
             }
         }

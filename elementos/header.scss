@@ -1,6 +1,8 @@
+@use '../variaveis.scss';
+
 header
 {   
-    background-color: #182C61;
+    background-color: variaveis.$corHeader;
     position: sticky;
     top: 0;
     left: 0;
@@ -21,7 +23,7 @@ header
                 margin-left: 24px;
                 a
                 {
-                    color: #fff;
+                    color:variaveis.$corLink;
                     text-decoration: none;
                 }
             }
