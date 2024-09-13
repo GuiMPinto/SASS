@@ -1,0 +1,14 @@
+@use 'use/reset.scss';
+@use 'elementos/header.scss';
+@use 'elementos/section.scss';
+
+body 
+{
+    background-color: #f5f6fa;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
